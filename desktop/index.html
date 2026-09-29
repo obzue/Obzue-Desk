@@ -10,7 +10,7 @@
 </head>
 <body>
   <div id="boot-screen" role="status">
-    <div class="boot-logo" aria-hidden="true"></div>
+    <img class="boot-logo" src="logo.png" alt="Obzue Desk">
     <div class="loading-bar"><span></span></div>
     <p class="boot-text">Loading Obzue Desk</p>
     <p class="boot-sub">v0.1.0 — browser desk. Not a native OS.</p>
@@ -22,16 +22,13 @@
     <div id="context-menu" class="hidden" role="menu"></div>
     <div id="taskbar">
       <button type="button" id="start-menu-button" aria-label="Start">
-        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
-          <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
+        <img src="start-icon.png" width="22" height="22" alt="">
       </button>
       <div id="task-buttons"></div>
       <div id="system-tray">
         <div id="volume-control">
           <button type="button" id="volume-toggle" aria-label="Volume">
-            <svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 10v4h3l5 4V6L7 10H4z" fill="currentColor"/></svg>
+            <img src="volume-icon.png" width="18" height="18" alt="">
           </button>
           <div id="volume-slider-container">
             <label for="master-volume">Master</label>

@@ -1,0 +1,16 @@
+{
+  "company": "ObzueAI",
+  "desk": "Binder",
+  "version": "0.1.0",
+  "tickets": [
+    {
+      "id": "B-001",
+      "title": "Ship Obzue Desk v0.1",
+      "status": "done",
+      "owner": "Desk",
+      "priority": 1,
+      "probe": "public repo",
+      "evidence": "https://github.com/obzue/Obzue-Desk"
+    }
+  ]
+}

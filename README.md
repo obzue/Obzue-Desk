@@ -6,6 +6,10 @@ Browser desk for ObzueAI Maker work. Free MIT. Not Windows. Not Paperclip. Not C
 
 Repo: https://github.com/obzue/Obzue-Desk
 
+## Screenshot
+
+See `docs/SCREENSHOT.md`. Wallpaper and PNG icons are in `desktop/` and `desktop/assets/`.
+
 ## 60-second demo
 
 ```bash
@@ -16,10 +20,7 @@ Open http://127.0.0.1:8080 — taskbar should read v0.1.0. Open Binder, Add, Exp
 
 ## Layout
 
-- `desktop/` — runnable UI
-- `skills/obzue-binder/` — ticket desk
-- `skills/obzue-product-forge/` — hardware / listing routing
-- `AUDIT.md` — bugs in the original WebSim paste
-- `MAP.md` `PRIVACY.md` `BOARD.md` `LICENSE`
-
-GitHub Pages: set source to `/desktop` on `main`.
+- `desktop/` — UI plus start-icon.png volume-icon.png logo.png wallpaper.png
+- `desktop/assets/` — full PNG set
+- `docs/screenshot.png` — capture
+- `skills/` — Binder and product-forge

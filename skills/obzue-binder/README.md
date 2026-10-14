@@ -1,6 +1,6 @@
 # Obzue Binder
 
-Remake of the Paperclip company-desk idea for ObzueAI. Not a fork.
+Remake of the Paperclip company-desk idea for ObzueAI Group. Not a fork.
 
 ```bash
 python3 scripts/wake.py ../../../board.json
